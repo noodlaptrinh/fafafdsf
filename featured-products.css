@@ -1,0 +1,32 @@
+.featured-products {
+  text-align: center;
+}
+
+.featured-products h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-item {
+  width: 200px;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
+.product-item h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-item .price {
+  font-weight: bold;
+}

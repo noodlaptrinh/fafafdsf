@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  /* Căn chỉnh và tùy chỉnh kích thước của logo */
+  width: 150px; /* Đặt độ rộng của logo */
+  height: auto; /* Đảm bảo tỷ lệ khung hình không bị méo */
+}
+
+.cart {
+  margin-left: 20px; /* Tạo khoảng cách giữa logo và giỏ hàng */
+}
+
+.fa-shopping-cart {
+  font-size: 24px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
